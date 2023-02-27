@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">MY TO DO LIST LOCAL STORAGE</h2>
+        <form [formGroup]="todoForm" (ngSubmit)="add()">
+            <input type="text" formControlName="title" id="myInput" placeholder="Title...">
+            <!-- <div *ngIf="todoForm.get('title')">
+                <div *nfIf="todoform.hasError('required', [title])">
+                    This Field is required
+                </div>
+                <div *nfIf="todoform.hasError('maxlength', [title])">
+                    Max length is 20
+            </div>
+            </div> -->
+     
+            <input type="submit" class="addBtn" value="add" [disabled]="todoForm.invalid">
+        </form>
+    </div>
+    <ul id="myUL">
+        <li *ngFor="let work of todo; let i=index">{{work}} <span class="close " type="submit"
+ 
+            (click)="remove(i)">[X]</span>
+        </li>
+    </ul>
+</body>
+ 
+</html>
