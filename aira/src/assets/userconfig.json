@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "id": 0,
+      "username": "aishwarya12",
+      "password": "aishwarya@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "vicky",
+      "password": "vicky@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "vanitha",
+      "password": "vani@gmail.com"
+    },
+    {
+      "id": 5,
+      "username": "aishu",
+      "password": "aishuraj@gmail.com"
+    },
+    {
+      "id": 7,
+      "username": "rajganesh123",
+      "password": "rg@gmail.com"
+    },
+    {
+      "id": 9,
+      "username": "aira123",
+      "password": "aira1@gmail.com"
+    }
+  ]
+}

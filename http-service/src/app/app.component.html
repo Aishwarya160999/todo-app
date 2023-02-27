@@ -1,0 +1,20 @@
+<table>
+  <thead>
+      <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Department</th>
+      </tr>
+  </thead>
+  <tbody>
+      
+      <tr *ngFor="let studentDetail of student">
+          <td>{{ studentDetail.id }}</td>
+          <td>{{ studentDetail.Name }}</td>
+          <td>{{ studentDetail.Departments }}</td>
+      </tr>
+  </tbody>
+</table>
+
+
+<router-outlet></router-outlet>

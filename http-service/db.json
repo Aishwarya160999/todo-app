@@ -1,0 +1,19 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "Name": "Raj",
+      "Departments": "civil"
+    },
+    {
+      "id": 2,
+      "Name": "Aishwarya",
+      "Departments": "Computer Science Engineering"
+    },
+    {
+      "id": 3,
+      "Name": "Ganesh",
+      "Departments": "Chemical Engineering"
+    }
+  ]
+}

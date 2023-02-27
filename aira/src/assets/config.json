@@ -1,0 +1,39 @@
+{
+  "Studentdetails": [
+    {
+      "id": 1,
+      "firstName": "ganesh",
+      "lastName": "Raj",
+      "mobile": "1234567890",
+      "email": "rg@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "vicky",
+      "lastName": "mahi",
+      "mobile": "1234567890",
+      "email": "vicky@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "mobile": ""
+    },
+    {
+      "id": 4,
+      "firstName": "ganesh",
+      "lastName": "raj",
+      "email": "rg@gmail.com",
+      "mobile": "1234567890"
+    },
+    {
+      "id": 5,
+      "firstName": "raj",
+      "lastName": "ganesh",
+      "email": "rg@gmail.com",
+      "mobile": "1234567890"
+    }
+  ]
+}

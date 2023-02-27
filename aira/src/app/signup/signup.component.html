@@ -1,0 +1,64 @@
+
+<!-- Login form  -->
+<form [formGroup]="signup"  (ngSubmit)="getdata()">
+    <h1> Sign-up page </h1>
+    <div class="loginstyle mt-3">
+   
+        <div class="form-group">
+            <label>User-Name</label>
+            <input type="text"
+             formControlName="username"
+              
+              placeholder="Enter User Name"
+              class="form-control size">
+
+            <div class="alert alert-danger message"
+             role="alert"
+              *ngIf="auser && auser.invalid && auser.touched">
+             Not valid </div>
+        </div>
+
+ 
+        <div class="form-group">
+            <label> Password</label>
+            <input type="text"
+             formControlName="password"
+              placeholder="Enter the Password"
+                class="form-control size">
+            <div class="alert alert-danger message"
+             role="alert" *ngIf="apass && apass.invalid && apass.touched">
+               not valid </div>
+        </div>
+        <button [disabled]="signup.invalid" *ngIf="showcreate"(click)="createuserdetails()" class="btn btn-primary mt-3"> Create
+        </button>
+        <button class="btn btn-warning me-2" *ngIf="showupdate" (click)="updateuser()"> Update</button>
+    </div>
+</form>
+
+
+
+
+<table class="table mt-2">
+    <thead>
+        <tr>
+            <th scope="col" >id</th>
+            <th scope="col">username</th>
+            <th scope="col">password</th>
+            <th scop="col">Ulter table</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userData">
+            <td>{{user.id}}</td>
+            <td>{{user.username}}</td>
+            <td>{{user.password}}</td>
+            <td>
+                <button class="btn btn-info me-2" (click)="editUser(user)"> Edit </button> 
+                
+                <button class="btn btn-danger me-2" (click)="removeUser(user.id)">Delete</button> 
+            </td>
+        </tr>
+      
+    </tbody>
+</table>
+

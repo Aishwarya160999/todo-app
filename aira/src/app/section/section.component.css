@@ -1,0 +1,35 @@
+body{
+    background-color:red;
+    height:100%;
+    margin-top:60px;
+    margin-bottom:60px;
+  }
+  span{
+    color:#c4c3c2;
+    margin:10px;
+  }   
+     
+  h5{
+    color:red;
+    }
+  h3{
+     padding-bottom:40px;
+  }
+  textarea{
+     background-color:#f5f7f7;
+   } 
+   
+  p{
+    padding-bottom:30px;
+    padding-top:100px;
+  }
+   .button{
+    float:right;
+    border-radius:4px;
+    background-color:red;
+    color: #FFFFFF;
+    font-size:20px;
+    padding: 10px;
+    width:180px;
+  }
+  
